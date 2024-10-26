@@ -1,3 +1,4 @@
+/* Mengatur gaya dasar untuk body */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -8,19 +9,35 @@ body {
     background-color: #f9f9f9;
 }
 
+/* Mengatur gaya untuk kontainer utama */
 .container {
     max-width: 500px;
-    text-align: center;
     background: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Mengatur gaya judul */
 h1 {
     color: #333;
+    margin-bottom: 20px;
 }
 
+/* Gaya untuk daftar tanggal dan lokasi */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Tombol RSVP */
 .rsvp-btn {
     display: inline-block;
     margin-top: 20px;
@@ -30,4 +47,16 @@ h1 {
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
+}
+
+.rsvp-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Countdown Timer */
+.countdown {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ff6347;
+    font-weight: bold;
 }
